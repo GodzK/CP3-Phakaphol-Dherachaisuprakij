@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.4">
+  <diagram name="หน้า-1" id="_sCCO0c38ricL9rduIHt">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start Signin Program" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="181" width="161" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="User Exists?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="196" y="83" width="132" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Enter Credentials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="79" y="284" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Credentials Valid?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="61" y="367" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Display Error" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="611" width="107" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Redirect to Dashboard" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="157" y="611" width="174" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Create New User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="398" y="284" width="136" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Enter New Credentials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="378" y="438" width="176" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Validate Credentials" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="386" y="611" width="160" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Display Error" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="713" width="107" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Redirect to Dashboard" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="474" y="713" width="174" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="54" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="244" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Invalid" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1.02;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Valid" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1.02;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
